@@ -173,87 +173,113 @@ body {
 
 
 
-
 .top_strike_O::after {
   content: '';
-  border-bottom: 4px solid #bf67bc;
+  border-radius: 50%; /* Membuat elemen menjadi berbentuk bulat (love) */
+  background-color: transparent; /* Menjadikan elemen transparan */
   position: absolute;
-  height: 10px;
+  height: 230px; /* Mengurangi tinggi elemen agar sesuai dengan bentuk love */
+  width: 10px;
   top: 55px;
-  width: 400px;
+  left: -65px;
+  transform: rotate(90deg);
+  border: 4px solid #bf67bc;
 }
+
 
 .middle_strike_O::after {
   content: '';
-  border-bottom: 4px solid #bf67bc;
+  border-radius: 50%; /* Membuat elemen menjadi berbentuk bulat (love) */
+  background-color: transparent; /* Menjadikan elemen transparan */
   position: absolute;
-  height: 10px;
-  top: 190px;
-  width: 400px;
+  height: 230px; /* Mengurangi tinggi elemen agar sesuai dengan bentuk love */
+  width: 10px;
+  top: -20px; /* Menggeser elemen agar sesuai dengan bentuk love */
+  left: -65px;
+  transform: rotate(90deg);
+  border: 4px solid #bf67bc;
 }
+
 
 .bottom_strike_O::after {
   content: '';
-  border-bottom: 4px solid #bf67bc;
+  border-radius: 50%; /* Membuat elemen menjadi berbentuk bulat (love) */
+  background-color: transparent; /* Menjadikan elemen transparan */
   position: absolute;
-  height: 10px;
-  top: 323px;
-  width: 400px;
+  height: 230px; /* Mengurangi tinggi elemen agar sesuai dengan bentuk love */
+  width: 10px;
+  top: 235px; /* Menggeser elemen agar sesuai dengan bentuk love */
+  left: -65px;
+  transform: rotate(90deg);
+  border: 4px solid #bf67bc;
 }
+
 
 .left_vertical_strike_O::after {
   content: '';
-  border-bottom: 4px solid #bf67bc;
+  border-radius: 50%; /* Membuat elemen menjadi berbentuk bulat (love) */
+  background-color: transparent; /* Menjadikan elemen transparan */
   position: absolute;
-  height: 10px;
-  top: 190px;
-  width: 400px;
+  height: 230px; /* Mengurangi tinggi elemen agar sesuai dengan bentuk love */
+  width: 10px;
+  top: -20px; /* Menggeser elemen agar sesuai dengan bentuk love */
+  left: -65px;
   transform: rotate(90deg);
-  left: -130px;
+  border: 4px solid #bf67bc;
 }
 
 .middle_vertical_strike_O::after {
   content: '';
-  border-bottom: 4px solid #bf67bc;
+  border-radius: 50%; /* Membuat elemen menjadi berbentuk bulat (love) */
+  background-color: transparent; /* Menjadikan elemen transparan */
   position: absolute;
-  height: 10px;
-  top: 190px;
-  width: 400px;
+  height: 230px; /* Mengurangi tinggi elemen agar sesuai dengan bentuk love */
+  width: 10px;
+  top: -20px; /* Menggeser elemen agar sesuai dengan bentuk love */
+  left: -65px;
   transform: rotate(90deg);
-  left: 5px;
+  border: 4px solid #bf67bc;
 }
 
 .right_vertical_strike_O::after {
   content: '';
-  border-bottom: 4px solid #bf67bc;
+  border-radius: 50%; /* Membuat elemen menjadi berbentuk bulat (love) */
+  background-color: transparent; /* Menjadikan elemen transparan */
   position: absolute;
-  height: 10px;
-  top: 190px;
-  width: 400px;
+  height: 230px; /* Mengurangi tinggi elemen agar sesuai dengan bentuk love */
+  width: 10px;
+  top: -20px; /* Menggeser elemen agar sesuai dengan bentuk love */
+  left: 190px;
   transform: rotate(90deg);
-  left: 140px;
+  border: 4px solid #bf67bc;
 }
+
 
 .x_cross_strike_O::after {
   content: '';
-  border-bottom: 4px solid #bf67bc;
+  border-radius: 50%; /* Membuat elemen menjadi berbentuk bulat (love) */
+  background-color: transparent; /* Menjadikan elemen transparan */
   position: absolute;
   height: 10px;
-  top: 198px;
-  width: 460px;
+  width: 230px; /* Mengurangi lebar elemen agar sesuai dengan bentuk love */
+  top: 175px;
+  left: 65px; /* Menggeser elemen agar sesuai dengan bentuk love */
   transform: rotate(45deg);
-  left: -20px;
+  border: 4px solid #bf67bc;
 }
+
 
 .y_cross_strike_O::after {
   content: '';
-  border-bottom: 4px solid #bf67bc;
+  border-radius: 50%; /* Membuat elemen menjadi berbentuk bulat (love) */
+  background-color: transparent; /* Menjadikan elemen transparan */
   position: absolute;
-  height: 10px;
-  top: 192px;
+  height: 475px;
   width: 475px;
-  transform: rotate(-45deg);
+  top: 130px;
   left: -45px;
+  transform: rotate(-45deg);
+  border: 4px solid #bf67bc;
 }
 
 .new_game {
